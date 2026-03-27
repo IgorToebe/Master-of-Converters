@@ -2,7 +2,7 @@
   "name": "conversor-de-audio",
   "version": "1.0.0",
   "description": "Conversor de áudio com Electron, Vue 3 e Vite",
-  "main": "src/main/main.js",
+  "main": "web-server/server.js",
   "scripts": {
     "dev": "npm run dev:web",
     "dev:desktop": "concurrently -k \"npm:dev:renderer\" \"npm:dev:electron\"",
